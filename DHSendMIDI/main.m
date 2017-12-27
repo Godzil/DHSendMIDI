@@ -135,7 +135,6 @@ int main(int argc, char * const *argv)
 		
 		// Create the message
 		SMVoiceMessage *message = [[SMVoiceMessage alloc] initWithTimeStamp:0 statusByte:messageStatus];
-		[message setTimeStampToNow];
 		[message setChannel:channel];
 		
 		const NSUInteger requiredLength = message.otherDataLength;
@@ -193,7 +192,7 @@ int main(int argc, char * const *argv)
 
 void printVersion(void)
 {
-	printf("DHSendMIDI 1.0\nCopyright 2013, Douglas Heriot\nhttps://github.com/DouglasHeriot/DHSendMIDI\n");
+	printf("DHSendMIDI 1.0\nCopyright 2013, Douglas Heriot\nCopyright 2017, Manoel Trapier, https://github.com/DouglasHeriot/DHSendMIDI\n");
 }
 
 void printHelp(void)
