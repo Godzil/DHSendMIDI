@@ -1,6 +1,7 @@
 # DHSendMIDI
 
-#### By [Douglas Heriot](http://douglasheriot.com/)
+#### Fork maintained by [Manoel Trapier](https://www.986-studio.com)
+#### Original version By [Douglas Heriot](http://douglasheriot.com/)
 
 DHSendMIDI is a simple tool for sending MIDI messages from an OS X command line.
 
@@ -10,13 +11,14 @@ Note that sometimes there could be a little delay as OS X wakes up its internal 
 
 ## Sounds awesome!
 
-Great! You can download a zip of the [latest binary](http://douglasheriot-static.s3.amazonaws.com/DHSendMIDI/downloads/DHSendMIDI%201.0.zip) to start playing right away! (Version 1.0)
+Great! You can download a zip of the [latest binary](https://github.com/Godzil/DHSendMIDI/releases) to start playing right away!
 
-Feel free to [contact me](http://douglasheriot.com/#contact) and let me know what you think!
+Feel free to contact me [via my blog](https://www.986-studio.com) and let me know what you think!
 
 ### What about a nice user interface?
 
-Glad you asked – you might like my (commercial) Mac app, [MIDI Friend](http://douglasheriot.com/midifriend/).
+Glad you asked – you might like the original author Mac app (commercial), [MIDI Friend](http://douglasheriot.com/midifriend/).
+I (the fork maintainer) will try to add some basic GUI to this repo, not trying to compete with the original author, but I do have some specific UI need, so will share them here!
 
 
 ## Usage
@@ -78,7 +80,7 @@ For slightly more detailed options (and short versions), see
 
 Note it includes SnoizeMIDI as a submodule, so clone recursively:
 
-    git clone --recursive git://github.com/DouglasHeriot/DHSendMIDI.git
+    git clone --recursive git://github.com/godzil/DHSendMIDI.git
 
 ## License
 
