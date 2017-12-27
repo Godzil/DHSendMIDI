@@ -192,7 +192,7 @@ int main(int argc, char * const *argv)
 
 void printVersion(void)
 {
-	printf("DHSendMIDI 1.0\nCopyright 2013, Douglas Heriot\nCopyright 2017, Manoel Trapier, https://github.com/DouglasHeriot/DHSendMIDI\n");
+	printf("DHSendMIDI 1.1\nCopyright 2013, Douglas Heriot\nCopyright 2017, Manoel Trapier, https://github.com/godzil/DHSendMIDI\n");
 }
 
 void printHelp(void)
